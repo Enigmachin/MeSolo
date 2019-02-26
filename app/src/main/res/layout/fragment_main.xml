@@ -5,7 +5,6 @@
     tools:context="com.studio.user.Shincipher.MainFragment">
 
     <!--Content-->
-
         <LinearLayout
             android:layout_margin="40dp"
             android:orientation="vertical"
@@ -15,11 +14,11 @@
             <!--Logo-->
             <ImageView
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/icon"
+                android:src="@drawable/logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-            <!--User-->
 
+            <!--User-->
             <EditText
                 android:inputType="text"
                 android:hint="Users :"
@@ -28,7 +27,7 @@
 
             <!--Password-->
             <EditText
-                android:inputType="text"
+                android:inputType="numberPassword"
                 android:hint="Password :"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -41,6 +40,9 @@
 
             <!--Register-->
             <TextView
+                android:clickable="true"
+                android:id="@+id/txtRegister"
+                android:textColor="@color/colorPrimary"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:textSize="18sp"
