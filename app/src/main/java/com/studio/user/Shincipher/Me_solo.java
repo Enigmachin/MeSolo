@@ -14,5 +14,5 @@ public class Me_solo extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.layoutMainFragmant, new MainFragment()).commit();
 
     }   //Main Method
-    
+
 }    //Main Classs
